@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project SignUp</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Andika&display=swap');
+        body{
+            margin: 8px;
+            padding: 10px;
+            border: 1px solid rgb(212, 208, 208);
+            font-family: 'Andika', sans-serif;
+        }
+        hr{
+            color:rgb(212, 208, 208);
+        }
+        .button1{
+            padding: 10px 10px 10px 10px;
+            margin: 0%;
+            width: 48.5%;
+            background-color: rgb(216, 38, 38);
+            color: white;
+            border: grey;
+        }
+        .button2{
+            padding: 10px 10px 10px 10px;
+            width: 48.5%;
+            background-color: rgb(90, 226, 26);
+            color: white;
+            border: grey;
+        }
+        .email{
+            padding: 10px;
+            margin: 5px;
+            width: 95%;
+            background-color: rgb(241, 237, 237);
+            border: grey;
+        }
+        .password{
+            padding: 10px;
+            margin: 5px;
+            width: 95%;
+            background-color: rgb(241, 237, 237);
+            border: grey;
+        }
+        .rpsswd{
+            padding: 10px;
+            margin: 5px;
+            width: 95%;
+            background-color: rgb(241, 237, 237);
+            border: grey;
+        }
+        a{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h2>Sign Up</h2>
+    <p>Please fill in this form to create an account</p><hr size="1">
+    <form action="tablechallenge.html">
+        <label for="email"><strong>Email</strong></label><br>
+        <input type="email" name="email" id="email" placeholder="Enter Email" class="email"><br>
+        <label for="pswd"><strong>Password</strong></label><br>
+        <input type="password" name="pswd" id="pswd" placeholder="Enter Password" class="password"><br>
+        <label for="pswd"><strong>Repeat Password</strong></label><br>
+        <input type="password" name="pswd" id="pswd" placeholder="Repeat Password" class="rpsswd"><br>
+        <input type="checkbox" name="chkbox" id="chkbox">
+</body>
+<label for="chkbox">Remember me</label>
+<p>By Creating an account you agree to out <a href="demo.html">Terms & Privacy</a></p>
+<input type="button" value="Cancel" class="button1">
+<a href="tablechallenge.html"><input type="button" value="Sign Up" class="button2"></a>
+</html>
